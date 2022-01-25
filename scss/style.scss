@@ -263,7 +263,13 @@
         text-align: center;
         color: white;
         span{
-            color: #127d85;
+            background:linear-gradient(90deg, #feac5e, #c779d0, #4bc0c8);
+            background-size: 400% 400%;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: gradient 9s ease infinite;
         }
     }
     h6{
@@ -272,6 +278,17 @@
         padding: 10px;
         font-weight: 700;
         text-align: center;
+    }
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
     }
 }
 #avatarComputer{
@@ -290,12 +307,12 @@
     width: 100%;
     background-color: #03121d;
     color: white;
-    h5{
+    >div h5{
         padding-top: 30px;
         text-align: center;
         font-size: 1.2rem
     }
-    >h2{
+    .project-header{
         text-align: center;
         padding: 8px;
         font-size: 2.5rem;
@@ -319,17 +336,19 @@
             text-align: center;
         h4{
             color: rgb(165, 13, 165);
-            font-weight: bold;
         }
         h2{
             padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        p{
             padding-bottom: 30px;
         }
     }
     .container-img{
         height: 350px;
         transition: 0.3s;
-        padding: 20px;
+        padding-bottom: 20px;
         grid-area: img;
     }
 }
@@ -338,19 +357,23 @@
     grid-template-areas: 
         "text"
         "img";
+    grid-template-columns: 100%;
     .project-text{
         display: flex;
-        width: 100%;
-        
         justify-content: center;
+        width: 100%;
         align-items: center;
         flex-direction: column;
     p{
-        width: 70%;
-        
+        width: 65%;
     }
     }
-
+    .container-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 }
 .img-proj{
     height: 80%;
@@ -393,7 +416,6 @@
     width: 100%;
     background-color: #03121d;
     color: white;
-    border: 2px solid green;
     position: relative;
 }
 // SECTION CONTACT ME
