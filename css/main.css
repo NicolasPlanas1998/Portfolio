@@ -240,9 +240,8 @@
   min-width: 300px;
   width: 20vw; }
 
-.example {
-  width: 450px;
-  height: 100px;
+.averages {
+  width: 250px;
   border: 2px solid black; }
 
 #projects {

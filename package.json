@@ -1,7 +1,6 @@
 {
   "name": "8.-porfolio",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "bootstrap-icons": "^1.7.2"
@@ -16,5 +15,14 @@
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasPlanas1998/Portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NicolasPlanas1998/Portfolio/issues"
+  },
+  "homepage": "https://github.com/NicolasPlanas1998/Portfolio#readme",
+  "description": ""
 }
