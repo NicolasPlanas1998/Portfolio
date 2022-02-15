@@ -116,7 +116,7 @@
   border-radius: 50%;
   margin-top: 13px;
   border: 1px solid white;
-  box-shadow: -30px -20px 20px #5aa0e252, 0px 40px 20px #0697aa34, 30px -20px 20px #f8b1953d; }
+  box-shadow: -30px -20px 20px #5aa0e252, 0px 40px 20px #0697aa34, 30px -20px 20px #f8b1953d; }
 
 .header-intro {
   margin-top: 16px;
@@ -126,7 +126,7 @@
 
 #services {
   display: grid;
-  grid-template-areas: "svHeader" "svMain ";
+  grid-template-areas: "svHeader" "svMain ";
   grid-template-columns: 1fr;
   grid-template-rows: 10px calc(100vh-10px);
   height: 100vh;
@@ -287,7 +287,7 @@
 
 .project-container-fm {
   display: grid;
-  grid-template-areas: "text" "img";
+  grid-template-areas: "text" "img";
   grid-template-columns: 100%; }
   .project-container-fm .project-text {
     display: flex;
@@ -370,7 +370,7 @@
       overflow: visible; }
   .profile {
     display: grid;
-    grid-template-areas: "highlights information" "footer footer";
+    grid-template-areas: "highlights information" "footer footer";
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 90vh auto; }
   .profile-highlights {
@@ -437,7 +437,7 @@
     margin-right: 2px; }
   #services {
     display: grid;
-    grid-template-areas: "svHeader svHeader" "svMain svMain";
+    grid-template-areas: "svHeader svHeader" "svMain svMain";
     grid-template-columns: 2fr 5fr;
     grid-template-rows: 100px auto; }
   .service-header {
@@ -512,7 +512,7 @@
     font-size: 40px; }
   .project-container-fm {
     display: grid;
-    grid-template-areas: "text" "img";
+    grid-template-areas: "text" "img";
     grid-template-columns: 100%; }
     .project-container-fm .project-text {
       display: flex;
