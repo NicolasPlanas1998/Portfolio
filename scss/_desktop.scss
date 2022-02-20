@@ -234,6 +234,18 @@
         }
         
     }
+    // ABOUT ME SECTION
+    .aboutMe-title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h3{
+        font-family: 'Rhodium Libre', serif;
+        width: 70%;
+        font-size: 2rem;
+        }   
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 1040px){
