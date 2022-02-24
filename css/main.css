@@ -406,7 +406,8 @@
   justify-content: center;
   align-items: center; }
   .contactMe-body .body-title {
-    font-size: 5.5rem;
+    font-size: 50px;
+    text-align: center;
     background: linear-gradient(90deg, #feac5e, #c779d0, #4bc0c8);
     background-size: 400% 400%;
     background-clip: text;
@@ -418,7 +419,7 @@
 
 .body-button {
   background-image: linear-gradient(to right, #614385 0%, #516395 51%, #614385 100%);
-  margin: 10px;
+  margin: 40px;
   padding: 15px 35px;
   text-align: center;
   border: none;
@@ -447,12 +448,14 @@
 
 .footer-nav ul {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  flex-wrap: wrap; }
   .footer-nav ul li {
     padding: 4px; }
     .footer-nav ul li a {
       text-decoration: none;
-      color: white; }
+      color: white;
+      font-size: 12px; }
       .footer-nav ul li a i {
         padding: 5px; }
     .footer-nav ul li a:hover {
@@ -668,7 +671,9 @@
       text-align: start;
       font-size: 1vw;
       padding: 20px;
-      line-height: 1.5rem; } }
+      line-height: 1.5rem; }
+  .contactMe-body .body-title {
+    font-size: 6vw; } }
 
 @media (min-width: 768px) and (max-width: 1040px) {
   .header-title {
