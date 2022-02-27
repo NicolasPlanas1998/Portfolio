@@ -17,7 +17,7 @@
 
 
 // NAVBAR
-   
+
 
 #index{
     //OP1 background: linear-gradient(90deg, #feac5e, #c779d0, #4bc0c8);
@@ -219,95 +219,6 @@
 #avr-img{
     width: 600px;
 }
-
-// Lo borramo??
-// #services{
-//     // ARREGLAR ESTO 
-//     display: grid;
-//     grid-template-areas: 
-//         "svHeader"
-//         "svMain ";
-//     grid-template-columns: 1fr;
-//     grid-template-rows: 10px calc(100vh-10px);
-//     height: 100vh;
-//     width: 100%;
-//     background-image: linear-gradient(180deg, #3cffeb00 0%, #4a82a1 31%, #053a5d 100%);  
-
-// }
-// .service-header{
-//     grid-area: svHeader;
-//     display: none;
-// }
-// .service-main{
-//     display: grid;
-//     grid-template-rows: 2.2rem calc(100% - 2.2rem);
-//     height: 100%;
-//     grid-area: svMain;
-//     div h2{
-//         font-size: 2.2rem;
-        
-//         color: rgb(73, 23, 73);
-//     }
-// }
-// .main-title{
-//     display: flex;
-//     align-items: flex-start;
-//     justify-content: center;
-// }
-// .container-box{    
-//     display: flex;
-//     justify-content: space-around;
-//     align-items: center;
-//     flex-wrap: wrap;
-//     height: 100%;
-
-// }
-// .box{
-//     display: none;
-//     width: 80%;
-//     box-shadow: rgba(95, 144, 192, 0.74) 0px 20px 30px -10px;
-//     background-color: #071e3d79;
-//     border-radius: 16px;
-//     margin: 10px;
-//     padding: 12px;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-//     height: auto;
-//     cursor: pointer;
-//     i{
-//         padding: 15px;
-//         font-size: 1.5rem;
-//         text-align: center;
-//         border-radius: 50px;
-//         border:2px solid white;
-//         background: -webkit-linear-gradient(90deg,#20bdff,#a5fecb);
-//         -webkit-background-clip: text;
-//         -webkit-text-fill-color: transparent;
-
-//     }
-//     h4{
-//         text-align: center;
-//         color: #F0E5CF;
-//         padding: 3px;
-//         font-size: 2rem;
-//         background: -webkit-linear-gradient(90deg,#20bdff,#a5fecb);
-//         -webkit-background-clip: text;
-//         -webkit-text-fill-color: transparent;
-
-//     }
-//     p{
-//         color: #F0E5CF;
-//         line-height: 150%;
-//         padding-left: 10px;
-//         text-align: center;
-//     }
-// }
-// .box-average{
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-// }
 .service-pic{
     display: flex;
     align-items: center;
@@ -573,7 +484,7 @@
     border: none;
     transition: 0.5s;
     background-size: 200% auto;
-    color: white;            
+    color: white; 
     font-size: 1.1rem;
     border-radius: 30px;
     display: block;
@@ -620,4 +531,7 @@
 }
 
 
+
+
 @import "desktop.scss";
+@import "contactMe.scss"

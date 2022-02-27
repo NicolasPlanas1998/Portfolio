@@ -1,0 +1,25 @@
+#contactMeHTML{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-box{
+    background-color: rgba(185, 196, 205, 0.101);
+    width: 70%;
+    height: 80%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#avatarContact{
+    width: 250px;
+    border-radius: 50%;
+    margin-top: 13px;
+    border: 3px solid rgba(255, 255, 255, 0.293);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 22px 22px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.contact-mail{
+    font-size: 2vw;
+    color: white;
+    font-weight: bolder;
+}
