@@ -120,69 +120,7 @@
         margin-right: 2px;
     }
     // SECOND SECTION
-    #services{
-        display: grid;
-        grid-template-areas: 
-            "svHeader svHeader"
-            "svMain svMain";
-        grid-template-columns: 2fr 5fr;
-        grid-template-rows: 100px auto;
-    }
-    .service-header{
-        grid-area: svHeader;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); 
-        width: 100%;
-    }
-    .line-one{
-        border-right: 3px solid rgb(73, 23, 73);
-    }
-    .line-two{
-        display: grid;
-        grid-template-columns: repeat(4,1fr);
-    }
-    .line-two--half{
-        border-bottom:3px solid rgb(73, 23, 73); 
-    }
-    .line-four{
-        display: grid;
-        grid-template-columns: repeat(4,1fr);
-    }
-    .line-four--half{
-        border-right:3px solid rgb(73, 23, 73); 
-    }
-    .main-title{
-        display: grid;
-        grid-template-columns: repeat(5,1fr);
-        padding: 0;
-        h2{
-           text-align: start;
-            grid-column: 4/5;
-        }
-    }
-    .box{
-        width: 30%;
-        background-color: transparent;
-        i{
-            font-size: 2.5rem;
-        }
-        h4{
-            font-size: 2.5rem;
-        }
-    }
-    .box:hover{
-        background-color: #071e3d79;
-        transition: 0.75s;
-    }
-    .box-detail{
-        display: none;
-    }
-    // CLASES PARA ACTIVAR CON JS
-    .box-activated{
-        background-color: #071e3d79;
-        width: 550px;
-        transition: 0.5s;
-    }
+
 
 
 

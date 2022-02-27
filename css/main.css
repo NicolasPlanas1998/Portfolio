@@ -126,79 +126,55 @@
   font-family: 'Roboto', sans-serif; }
 
 #services {
-  display: grid;
-  grid-template-areas: "svHeader" "svMain ";
-  grid-template-columns: 1fr;
-  grid-template-rows: 10px calc(100vh-10px);
+  display: flex;
+  flex-direction: column;
   height: 100vh;
   width: 100%;
   background-image: linear-gradient(180deg, #3cffeb00 0%, #4a82a1 31%, #053a5d 100%); }
-
-.service-header {
-  grid-area: svHeader;
-  display: none; }
+  #services div {
+    text-align: center; }
 
 .service-main {
-  display: grid;
-  grid-template-rows: 2.2rem calc(100% - 2.2rem);
-  height: 100%;
-  grid-area: svMain; }
-  .service-main div h2 {
-    font-size: 2.2rem;
-    color: #491749; }
-
-.main-title {
   display: flex;
-  align-items: flex-start;
-  justify-content: center; }
+  flex-direction: column; }
 
 .container-box {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
+  flex-direction: row;
   flex-wrap: wrap;
-  height: 100%; }
+  margin-top: 30px; }
 
-.box {
-  display: none;
-  width: 80%;
-  box-shadow: rgba(95, 144, 192, 0.74) 0px 20px 30px -10px;
-  background-color: #071e3d79;
-  border-radius: 16px;
-  margin: 10px;
-  padding: 12px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: auto;
-  cursor: pointer; }
-  .box i {
-    padding: 15px;
-    font-size: 1.5rem;
-    text-align: center;
-    border-radius: 50px;
-    border: 2px solid white;
-    background: -webkit-linear-gradient(90deg, #20bdff, #a5fecb);
+.service-box {
+  width: 300px;
+  margin: 15px;
+  background-color: rgba(44, 82, 112, 0.875);
+  border-radius: 15px;
+  color: white; }
+  .service-box h4 {
+    font-size: 2vw;
+    font-weight: bold;
+    background: linear-gradient(90deg, white, #cdc6c6);
+    background-size: 400% 400%;
+    background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; }
-  .box h4 {
-    text-align: center;
-    color: #F0E5CF;
-    padding: 3px;
-    font-size: 2rem;
-    background: -webkit-linear-gradient(90deg, #20bdff, #a5fecb);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; }
-  .box p {
-    color: #F0E5CF;
-    line-height: 150%;
-    padding-left: 10px;
-    text-align: center; }
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 9s ease infinite;
+    padding: 10px;
+    font-size: 3vw; }
+  .service-box p {
+    padding: 10px;
+    font-size: 1.5vw; }
 
-.box-average {
+.service-img {
   display: flex;
-  justify-content: center;
-  align-items: center; }
+  align-items: center;
+  justify-content: center; }
+
+#avr-img {
+  width: 600px; }
 
 .service-pic {
   display: flex;
@@ -549,51 +525,6 @@
     border: 0.5px solid #491749;
     background-color: #491749;
     margin-right: 2px; }
-  #services {
-    display: grid;
-    grid-template-areas: "svHeader svHeader" "svMain svMain";
-    grid-template-columns: 2fr 5fr;
-    grid-template-rows: 100px auto; }
-  .service-header {
-    grid-area: svHeader;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 100%; }
-  .line-one {
-    border-right: 3px solid #491749; }
-  .line-two {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); }
-  .line-two--half {
-    border-bottom: 3px solid #491749; }
-  .line-four {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); }
-  .line-four--half {
-    border-right: 3px solid #491749; }
-  .main-title {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    padding: 0; }
-    .main-title h2 {
-      text-align: start;
-      grid-column: 4/5; }
-  .box {
-    width: 30%;
-    background-color: transparent; }
-    .box i {
-      font-size: 2.5rem; }
-    .box h4 {
-      font-size: 2.5rem; }
-  .box:hover {
-    background-color: #071e3d79;
-    transition: 0.75s; }
-  .box-detail {
-    display: none; }
-  .box-activated {
-    background-color: #071e3d79;
-    width: 550px;
-    transition: 0.5s; }
   .service-pic h3 {
     font-size: 5rem; }
   #avatarComputer {
