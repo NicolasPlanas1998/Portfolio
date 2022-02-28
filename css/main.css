@@ -640,7 +640,11 @@
   width: 70%;
   height: 80%;
   border-radius: 15px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; }
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center; }
 
 #avatarContact {
   width: 250px;
@@ -649,7 +653,55 @@
   border: 3px solid rgba(255, 255, 255, 0.293);
   box-shadow: rgba(0, 0, 0, 0.25) 0px 22px 22px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; }
 
+.fa-envelope {
+  font-size: 150px;
+  text-align: center;
+  background: linear-gradient(90deg, #5e89fe, #c779d0, #4bc0c8);
+  background-size: 400% 400%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s; }
+
 .contact-mail {
   font-size: 2vw;
-  color: white;
+  background: linear-gradient(90deg, #5e89fe, #c779d0, #1fdeec);
+  background-size: 400% 400%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-weight: bolder; }
+
+.fa-envelope:hover {
+  color: #c779d0; }
+
+.footer-nav--contact {
+  font-size: 40px;
+  color: white;
+  display: flex;
+  border-left: 1px solid white;
+  justify-content: center;
+  align-items: center; }
+  .footer-nav--contact ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; }
+  .footer-nav--contact li {
+    margin: 15px;
+    margin-left: 25px; }
+  .footer-nav--contact a {
+    color: white; }
+  .footer-nav--contact a:hover {
+    background: linear-gradient(90deg, #feac5e, #c779d0, #4bc0c8);
+    background-size: 400% 400%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 9s ease infinite; }
