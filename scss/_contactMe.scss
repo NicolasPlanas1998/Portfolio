@@ -6,8 +6,8 @@
 }
 .container-box{
     background-color: rgba(185, 196, 205, 0.101);
-    width: 70%;
-    height: 80%;
+    width: 60%;
+    height: 70%;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     display: flex;
@@ -22,7 +22,7 @@
     border: 3px solid rgba(255, 255, 255, 0.293);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 22px 22px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-.fa-envelope{
+.mail-icon{
     font-size: 150px;
     text-align: center;
     background:linear-gradient(90deg, #5e89fe, #c779d0, #4bc0c8);
@@ -39,6 +39,7 @@
 
 .contact-mail{
     font-size: 2vw;
+    font-family: 'Rhodium Libre', serif;
     background:linear-gradient(90deg, #5e89fe, #c779d0, #1fdeec);
     background-size: 400% 400%;
     background-clip: text;
@@ -46,9 +47,6 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bolder;
-}
-.fa-envelope:hover{
-    color: #c779d0;
 }
 .footer-nav--contact{
     font-size: 40px;
