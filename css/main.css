@@ -252,7 +252,7 @@
     grid-area: text;
     text-align: center; }
     .project-container .project-text h4 {
-      color: #a50da5; }
+      color: beige; }
     .project-container .project-text h2 {
       padding-top: 30px;
       padding-bottom: 30px; }
@@ -350,7 +350,7 @@
     font-family: 'Rhodium Libre', serif;
     width: 70%;
     font-size: 6vw;
-    background-image: linear-gradient(90deg, wheat, #38383836);
+    background-image: linear-gradient(90deg, #20bcff5c, #38383836);
     background-repeat: no-repeat;
     border-radius: 10px;
     background-size: 0% 100%;
@@ -589,7 +589,6 @@
       font-family: 'Rhodium Libre', serif;
       width: 70%;
       font-size: 2vw;
-      background-image: linear-gradient(90deg, wheat, #38383836);
       background-repeat: no-repeat;
       border-radius: 10px;
       background-size: 0% 100%;
@@ -668,7 +667,7 @@
   align-items: center;
   transition: 0.3s; }
 
-.contact-mail {
+.contact-mail, .footer-nav--contact a:hover {
   font-size: 2vw;
   font-family: 'Rhodium Libre', serif;
   background: linear-gradient(90deg, #5e89fe, #c779d0, #1fdeec);
@@ -695,12 +694,14 @@
     margin: 15px;
     margin-left: 25px; }
   .footer-nav--contact a {
-    color: white; }
-  .footer-nav--contact a:hover {
+    font-size: 40px;
+    color: white;
     background: linear-gradient(90deg, #feac5e, #c779d0, #4bc0c8);
     background-size: 400% 400%;
     background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: gradient 9s ease infinite; }
+    animation: gradient 15s ease infinite; }
+  .footer-nav--contact a:hover {
+    font-size: 40px; }

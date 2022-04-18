@@ -1,3 +1,4 @@
+
 #contactMeHTML{
     height: 100vh;
     display: flex;
@@ -65,15 +66,18 @@
         margin: 15px;
         margin-left: 25px;
     }a{
+        font-size: 40px;
         color: white;
-    }
-    a:hover{
         background:linear-gradient(90deg, #feac5e, #c779d0, #4bc0c8);
         background-size: 400% 400%;
         background-clip: text;
         -webkit-background-clip: text;
         -moz-background-clip: text;
         -webkit-text-fill-color: transparent;
-        animation: gradient 9s ease infinite;        
+        animation: gradient 15s ease infinite;   
+    }
+    a:hover{
+        @extend.contact-mail;
+        font-size: 40px;
     }
 }
