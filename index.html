@@ -27,8 +27,8 @@
             </div>
             <ul class="undeploy"> 
                 <!-- AGREGAR ESTILO AL MENU -->
-                <li class="services">
-                    <a href="#services" >Services</a>
+                <li >
+                    <a href="#education" >Education</a>
                 </li>
                 <li>
                     <a href="#projects">Projects</a>
@@ -69,10 +69,6 @@
             </div>
         </div>
         <div class="profile-information">
-            <!-- <div class="modal-lenguage">
-                <i class="fas fa-globe-americas"></i>
-            </div> 
-            SET UP MODAL FOR CHOOSE LENGUAGE-->
             <div>
                 <img id="profImg" src="./images/nico-heart.png" alt="profile-img">
             </div>
@@ -92,44 +88,82 @@
         </div>
     </section>
     <main class="summary">
-        <section id="services">
-            <!-- <div class="service-header">
-                    <div class="line-connection line-one"></div>
-                    <div class="line-connection line-two">
-                        <div class="line-two--half"></div>
+        <section id="education">
+            <div class="educationContainer">
+                <div>
+                    <h2>Education Path</h2>
+                    <div class="containerPath">
+                        <div>
+                            <p class="education-years">2022-2022</p>
+                            <p>Full-Stack Developer Bootcamp</p>
+                        </div>
+                        <p class="institution">HENRY</p>
                     </div>
-                    <div class="line-connection"></div>
-                    <div class="line-connection line-four">
-                        <div class="line-four--half"></div>
+                    <div class="containerPath">
+                        <div>
+                            <p class="education-years">2021-2021</p>
+                            <p>Front-End Developer Certification</p>
+                        </div>
+                        <p class="institution">CoderHouse</p>
                     </div>
-            </div> -->
-            <div class="main-title ">
-                <h2>My services</h2>
-            </div>
-            <div class="service-main">
-                <!-- <div class="container-service">
-                    <div class="service-box">
-                        <h4>UI Design</h4>
-                        <p>A love for design and a good eye for creativity. I have courses in Adobe Ilustration, 
-                            color theory and visual communication.</p>
-                    </div>
-                    <div class="service-`box">
-                        <h4>Web Development</h4>
-                        <p>A full knowledge of HTML / CSS and Javascript. I make responsive applications 
-                            and studying for expand my knowledge of Back-End</p>
-                    </div>
-                    <div class="service-box">
-                        <h4>Consultancy</h4>
-                        <p> With my bachelor degree in business administration I also help people <br> who is starting a new business
-                            or that want to enter the digital world</p>
+                    <div class="containerPath">
+                        <div>
+                            <p class="education-years">2016-2022</p>
+                            <p>Bachelor of Business Administration</p>
+                        </div>
+                        <p class="institution">University LDZ</p>
                     </div>
                 </div>
-                <div class="service-img">
-                    <img id="avr-img"src="/images/averages.png" alt="averages of skills">
-                </div> -->
+                <div class="wrapperSkillsLanguages">
+                    <h2 class="skillsTitle">Skills</h2>
+                    <div class="containerSkills">
+                        <div class="softSkills">
+                            <h3 class="skills-subtitles">Soft Skills</h3>
+                            <div class="softSkills-items">
+                                <ul>
+                                    <li>Creative</li>
+                                    <li>Curious</li>
+                                    <li>Resilient</li>
+                                </ul>
+                                <ul>
+                                    <li>Adaptable</li>
+                                    <li>Extrovert</li>
+                                    <li>Teamwork</li>
+                                </ul>
+                            </div>
+                            <div class="countriesFlags">
+                                <div>
+                                    <img class="flags" src="./images/spainFlag.png" alt="Spanish" >
+                                    <span>Spanish <br>(native)</span>
+                                </div>
+                                <div>
+                                    <img class="flags" src="./images/ukFlag.png" alt="English" >
+                                    <span>English <br>(advanced)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="languages">
+                            <div>
+                                <h3 class="skills-subtitles">Programming Skills</h3>            
+                            </div>
+                            <div class="languagesIcon-container">
+                                <img class="languagesIcon" src="./images/html.png" alt="html" >
+                                <img class="languagesIcon" src="./images/css-3.png" alt="css" >
+                                <img class="languagesIcon" src="./images/js.png" alt="javascript" >
+                                <img class="languagesIcon" src="./images/physics.png" alt="react js" >
+                                <img class="languagesIcon" src="./images/github.png" alt="github" >
+                                <img class="languagesIcon" src="./images/sass.png" alt="sass" >
+                                <img class="languagesIcon" src="./images/sequelize.png" alt="sequelize" >
+                                <img class="languagesIcon" src="./images/postgre.png" alt="postgres" > 
+                                <img class="languagesIcon" src="./images/nodejs.png" alt="nodejs" >
+                            </div>
+                        </div>
+                    </div>
+                </div>  
             </div>
-            <div class="footer-line">
-                <div class="line-connection"></div>
+            <div class="curriculumContainer">
+                <i class="fas fa-cloud-download"></i>
+                <a class="cv" href="./file/cv.pdf" target="_blank">Curriculum Vitae</a>
             </div>
         </section>
         <section class="service-pic">
@@ -139,7 +173,6 @@
                     <span> lessons of failure”</span></h3> 
                     <h6><i>-Bill Gates</i></h6>
                     <img src="./images/nico-computer.png"  id="avatarComputer" alt="image avatar with computer">
-                    <!-- AGREGAR LINEA DE CONECCION -->
         </section>
         <section id="projects">
             <div>
@@ -151,29 +184,66 @@
                     <div class="project-text">
                         <!-- ARREGLAR TAMAÑO DE LAS IMAGENES EN RESPONSIVE -->
                         <h4>-Project 1-</h4>
-                        <h2>Pastry Shop E-Commerce</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio atque veritatis dolor rerum 
-                            nisi voluptate possimus iure! Dolores iste eaque voluptatibus doloremque architecto officia optio aperiam fugit assumenda quibusdam repellat earum illum odit, aut quam, velit tempore perspiciatis animi quaerat quod. Porro animi 
-                            dicta minus numquam optio aut debitis expedita.</p>
+                        <h2>Pokemon App</h2>
+                        <p> This was my first full-stack app. Here you can see a list of existing pokemons from 
+                            a public API, in where you will be able to apply differents filters to search for an specific
+                            pokemon.
+                            At the same time you also can log in and create your own pokemon.
+                        </p>
+                        <div>
+                            <img class="iconBW" src="./images/htmlBW.png" alt="" srcset="">
+                            <img class="iconBW" src="./images/jsBW.png" alt="" srcset="">
+                            <img class="iconBW" src="./images/reactBW.png" alt="" srcset="">
+                            <img class="iconBW" src="./images/postgreBW.png" alt="" srcset="">
+                            <img class="iconBW" src="./images.png" alt="" srcset="">
+                        </div>
                     </div>
-                    <div class="container-img">
-                        <img class="img-proj img-proj--left" src="./images/project-1.png" alt="image of first project">
+                    <div class="container-img"> 
+                            <img  class="img-proj img-proj--left" src="./images/pokemonApp.png" alt="image of first project">
+                            <div class="linked-project">
+                                <div>
+                                    <a href="https://shimmering-ganache-d84059.netlify.app/" target="_blank" ><i class="fa-brands fa-chrome"></i></a>
+                                    <span>Website</span>
+                                </div>
+                                <div>
+                                    <a href="https://github.com/NicolasPlanas1998/PokeApp" target="_blank" ><img class="linked" src="./images/github.png" alt="" srcset=""></a>
+                                    <span>Github</span>
+                                </div>
+                            </div>
                     </div>
                 </div>
-                <div class="project-container project-container-fm">
-                    <div class="container-img">
-                        <img class="img-proj img-proj--right" src="./images/project-2.png" alt="image of second project">
-                    </div>
+                <div class="project-container">
                     <div class="project-text">
+                        <!-- ARREGLAR TAMAÑO DE LAS IMAGENES EN RESPONSIVE -->
                         <h4>-Project 2-</h4>
-                        <h2>Sell Register</h2>
-                        <p class="as">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio atque veritatis dolor rerum 
-                            nisi voluptate possimus iure! Dolores iste eaque voluptatibus doloremque architecto officia optio
-                            aperiam fugit assumenda quibusdam repellat earum illum odit, aut quam, velit tempore perspiciatis animi quaerat quod. Porro animi 
-                            dicta minus numquam optio aut debitis expedita.</p>
-                    </div>  
+                        <h2>E-commerce</h2>
+                        <p> This was my first full-stack app. Here you can see a list of existing pokemons from 
+                            a public API, in where you will be able to apply differents filters to search for an specific
+                            pokemon.
+                            At the same time you also can log in and create your own pokemon.
+                        </p>
+                        <div>
+                            <img class="iconBW" src="./images/htmlBW.png" alt="" srcset="">
+                            <img class="iconBW" src="./images/jsBW.png" alt="" srcset="">
+                            <img class="iconBW" src="./images/reactBW.png" alt="" srcset="">
+                            <img class="iconBW" src="./images/postgreBW.png" alt="" srcset="">
+                            <img class="iconBW" src="./images.png" alt="" srcset="">
+                        </div>
+                    </div>
+                    <div class="container-img"> 
+                            <img  class="img-proj img-proj--left" src="./images/project-3.png" alt="image of first project">
+                            <div class="linked-project">
+                                <div>
+                                    <a href="https://shimmering-ganache-d84059.netlify.app/" target="_blank" ><i class="fa-brands fa-chrome"></i></a>
+                                    <span>Website</span>
+                                </div>
+                                <div>
+                                    <a href="https://github.com/NicolasPlanas1998/PokeApp" target="_blank" ><img class="linked" src="./images/github.png" alt="" srcset=""></a>
+                                    <span>Github</span>
+                                </div>
+                            </div>
+                    </div>
                 </div>
-            </div>
         </section>
         <section id="aboutMe">
                 <div class="bg-mb"></div>
@@ -199,7 +269,7 @@
                 <div >
                     <a href="/contactMe.html">
                         <button class="body-button" href="/contactMe.html">
-                        Contact Me
+                            Contact Me
                         <i class="fas fa-arrow-alt-circle-right"></i>
                         </button>
                     </a>
@@ -219,9 +289,6 @@
                             </li>
                             <li>
                                 <a href="mailto:dev.nicolasplanas@gmail.com?subject=Job Offer" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i>Gmail</a>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/nicoplanass/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i>Instagram</a>
                             </li>
                         </ul>
                     </nav>
