@@ -119,14 +119,17 @@
         background-color: rgb(73, 23, 73);
         margin-right: 2px;
     }
-    // SECOND SECTION
-
-
-
-
-    // @for $i from 1 through 3{
-    //     #box-#{$i}{grid-area: b-#{$i}}
-    // }
+    // EDUCATION SECTION
+    .containerSkills{
+        width: 800px;}
+    .languagesIcon-container{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows: 1fr 1fr;
+        gap: 17px;
+    }
+ 
+  
     .service-pic{
         h3{
             font-size: 5rem;
@@ -137,28 +140,88 @@
     }
     // PROJECTS SECTION
     #projects{
-        display: grid;
-        grid-template-rows: 120px auto;
-        min-height: 170vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 50px;
+        width: 100%;
+        min-height: 130vh;
     }
     .flex-spaceAround{
         display: flex;
         height: 100%;
         justify-content:space-evenly;
+        gap: 100px;
         flex-direction: column;
     }
     .project-container{
+        display: flex;
+        flex-direction: row;
+        height: 260px;
         .project-text{
             width: 500px;
             h2{
                 font-size: 2rem;
             }
         }
+        .container-img{
+            width: 35%;
+            height: 100%;
+        }
     }
     .img-proj{
-        height: 325px;
+       width: 100%;
+       height: 100%;
     }
-
+    .container-img:hover .img-proj{
+       box-shadow: none;
+        opacity: 0.5;}
+    .linked-project{
+        position: relative;
+        display: flex ;
+        justify-content: center;
+        gap: 30px;
+        align-items: center;
+        z-index: 100;
+        top: -160px;
+        opacity: 1;
+        z-index: 10;
+        >div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap:5px;
+            span{
+                font-size: small;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+        }     
+        a{
+            text-decoration: none;
+            opacity: 1;
+            z-index: 10;
+            color: #f2f2f2;
+        }
+    }
+    .container-img:hover .linked-project{
+            display: flex;
+        }
+    
+    .linked{
+        width: 70px;
+        transition: 0.3s;
+    }
+    .linked:hover{
+        width: 73px;
+    }
+    .fa-chrome{
+        font-size: 70px;
+        transition: 0.3s;
+    }
+    .fa-chrome:hover{
+        font-size: 73px;
+    }
     .project-container-fm{
         grid-template-areas: 
             "img text";
@@ -274,5 +337,6 @@
             align-items: center;
             flex-direction: column;
         }
-    }     
+    }  
+
 }
