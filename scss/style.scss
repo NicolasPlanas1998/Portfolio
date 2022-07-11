@@ -336,7 +336,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 100vh;
+    height: 120vh;
     min-height: 800px;
     background-image: linear-gradient(180deg, #053a5d 0%, #082b42 31%, #03121d 100%);  
     h3{
@@ -447,12 +447,13 @@
 #aboutMe{
     height: 100vh;
     width: 100%;
-    background-image: url(/images/aboutMeImg.jpeg);
+    background-image: url(/images/aboutMe.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     color: white;
-    border: .5px solid rgba(255, 255, 255, 0);
+    border-top: 0.1px solid black;
+    // border: .1px solid rgba(255, 255, 255, 0);
         h2{
         margin-top: 60px;
         text-align: center;
@@ -591,8 +592,6 @@
         }
     }
 }
-
-
 
 
 @import "desktop.scss";
