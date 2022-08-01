@@ -51,7 +51,7 @@
 }
 .nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .home{
@@ -170,7 +170,8 @@
     padding-top: 100px;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    // height: 100vh;
+    min-height: 100%;
     width: 100%;
     background-image: linear-gradient(180deg, #3cffeb00 0%, #4a82a1 31%, #053a5d 100%);  
     h2{
@@ -323,21 +324,32 @@
 .languagesIcon-container{
    display: flex;
    max-width: 300px;
+   max-height: 500px;
    flex-wrap: wrap;
+   justify-content: center;
    gap: 10px
 }
 .languagesIcon{
-    width: 60px;
+    width: 50px;
+}
+.languagesIcon-container div {
+ width: 60px;
+}
+.languagesIcon-container div span{
+    color: white;
+    font-size: small;
 }
 
 
 .service-pic{
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     height: 120vh;
     min-height: 800px;
+    z-index: -10;
     background-image: linear-gradient(180deg, #053a5d 0%, #082b42 31%, #03121d 100%);  
     h3{
         font-size: 3.5vh;
@@ -551,12 +563,14 @@
     font-size: 1.1rem;
     border-radius: 30px;
     display: block;
+    cursor: pointer;
     i{
         margin-left: 7px;
     }
 }
 .body-button:hover{
     transform: translate(0,-2.5px) ;
+    background-color: transparent;
     background-position: right center; 
     text-decoration: none;
 }

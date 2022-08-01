@@ -52,7 +52,6 @@
     font-weight: bolder;
 }
 .footer-nav--contact{
-    font-size: 3rem;
     color: white;
     display: flex;
     border-left: 1px solid white;
@@ -68,6 +67,7 @@
         margin: 15px;
         margin-left: 25px;
     }a{
+        font-size: 3rem;
         color: white;
         background:linear-gradient(90deg, #feac5e, #c779d0, #4bc0c8);
         background-size: 400% 400%;
@@ -78,8 +78,13 @@
         animation: gradient 15s ease infinite;   
     }
     a:hover{
-        @extend.contact-mail;
-        font-size: 40px;
+        background:linear-gradient(90deg, #f3943b, #b45ebe, #2ab3bd);  
+        background-size: 400% 400%;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: gradient 15s ease infinite;   
     }
 }
 @media (max-width: 768px) {
